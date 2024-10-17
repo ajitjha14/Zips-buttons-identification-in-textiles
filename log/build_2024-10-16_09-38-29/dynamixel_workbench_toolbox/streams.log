@@ -1,0 +1,50 @@
+[0.071s] Invoking command in '/home/amir/interbotix_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/amir/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/amir/interbotix_ws/install/dynamixel_workbench_toolbox
+[0.704s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.705s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.705s] -- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.705s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.705s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.706s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.706s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.835s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.841s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.686s] -- Configuring done
+[1.724s] -- Generating done
+[1.733s] -- Build files have been written to: /home/amir/interbotix_ws/build/dynamixel_workbench_toolbox
+[1.758s] Invoked command in '/home/amir/interbotix_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/amir/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox -DCMAKE_INSTALL_PREFIX=/home/amir/interbotix_ws/install/dynamixel_workbench_toolbox
+[1.769s] Invoking command in '/home/amir/interbotix_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/dynamixel_workbench_toolbox -- -j4 -l4
+[1.884s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_workbench_toolbox[0m
+[1.916s] [100%] Built target dynamixel_workbench_toolbox
+[1.951s] Invoked command in '/home/amir/interbotix_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/dynamixel_workbench_toolbox -- -j4 -l4
+[2.133s] Invoking command in '/home/amir/interbotix_ws/build/dynamixel_workbench_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/dynamixel_workbench_toolbox
+[2.155s] -- Install configuration: ""
+[2.155s] -- Execute custom install script
+[2.156s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/lib/libdynamixel_workbench_toolbox.so
+[2.162s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_driver.h
+[2.163s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_item.h
+[2.167s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_tool.h
+[2.168s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/include//dynamixel_workbench_toolbox/dynamixel_workbench.h
+[2.170s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.sh
+[2.172s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/library_path.dsv
+[2.172s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_toolbox
+[2.178s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_toolbox
+[2.183s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.sh
+[2.186s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/ament_prefix_path.dsv
+[2.187s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.sh
+[2.188s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/environment/path.dsv
+[2.189s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.bash
+[2.191s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.sh
+[2.192s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.zsh
+[2.196s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/local_setup.dsv
+[2.197s] -- Symlinking: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv
+[2.235s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/ament_index/resource_index/packages/dynamixel_workbench_toolbox
+[2.237s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.239s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.240s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[2.247s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig.cmake
+[2.251s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake/dynamixel_workbench_toolboxConfig-version.cmake
+[2.258s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.xml
+[2.258s] Invoked command in '/home/amir/interbotix_ws/build/dynamixel_workbench_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/dynamixel_workbench_toolbox

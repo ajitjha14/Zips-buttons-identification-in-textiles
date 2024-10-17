@@ -1,0 +1,340 @@
+[0.056s] Invoking command in '/home/amir/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/interbotix_xs_msgs -- -j4 -l4
+[0.665s] [  0%] Built target interbotix_xs_msgs__cpp
+[0.666s] [ 12%] Built target interbotix_xs_msgs__rosidl_generator_c
+[0.666s] [ 12%] Built target ament_cmake_python_symlink_interbotix_xs_msgs
+[0.666s] [ 24%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp
+[0.666s] [ 36%] Built target interbotix_xs_msgs__rosidl_typesupport_cpp
+[0.667s] [ 48%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c
+[0.667s] [ 60%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp
+[0.667s] [ 72%] Built target interbotix_xs_msgs__rosidl_typesupport_c
+[0.668s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c
+[0.668s] [ 84%] Built target interbotix_xs_msgs
+[0.668s] [ 85%] Built target interbotix_xs_msgs__py
+[0.668s] [ 96%] Built target interbotix_xs_msgs__rosidl_generator_py
+[0.668s] [ 97%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.669s] [ 98%] Built target interbotix_xs_msgs__rosidl_typesupport_c__pyext
+[0.669s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext
+[0.917s] running egg_info
+[0.989s] writing interbotix_xs_msgs.egg-info/PKG-INFO
+[0.990s] writing dependency_links to interbotix_xs_msgs.egg-info/dependency_links.txt
+[0.994s] writing top-level names to interbotix_xs_msgs.egg-info/top_level.txt
+[1.210s] reading manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.212s] writing manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.316s] [100%] Built target ament_cmake_python_build_interbotix_xs_msgs_egg
+[1.351s] Invoked command in '/home/amir/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/interbotix_xs_msgs -- -j4 -l4
+[2.639s] Invoking command in '/home/amir/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/interbotix_xs_msgs
+[2.678s] -- Install configuration: ""
+[2.683s] -- Execute custom install script
+[2.684s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_xs_msgs
+[2.689s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/arm_joy.h
+[2.692s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__functions.h
+[2.693s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__struct.h
+[2.693s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__type_support.h
+[2.694s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__functions.h
+[2.694s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__struct.h
+[2.695s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__type_support.h
+[2.695s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__functions.h
+[2.695s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__struct.h
+[2.696s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__type_support.h
+[2.696s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__functions.h
+[2.696s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__struct.h
+[2.697s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__type_support.h
+[2.697s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__functions.h
+[2.699s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__struct.h
+[2.700s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__type_support.h
+[2.700s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__functions.h
+[2.700s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.h
+[2.700s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__type_support.h
+[2.701s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__functions.h
+[2.701s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__struct.h
+[2.701s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__type_support.h
+[2.702s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__functions.h
+[2.706s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__struct.h
+[2.706s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__type_support.h
+[2.708s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/hex_joy.h
+[2.709s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_group_command.h
+[2.709s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_single_command.h
+[2.709s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_temps.h
+[2.709s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_trajectory_command.h
+[2.710s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/locobot_joy.h
+[2.710s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.710s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/turret_joy.h
+[2.715s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__functions.h
+[2.715s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__struct.h
+[2.716s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__type_support.h
+[2.716s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__functions.h
+[2.716s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__struct.h
+[2.716s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__type_support.h
+[2.717s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__functions.h
+[2.721s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__struct.h
+[2.734s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__type_support.h
+[2.734s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__functions.h
+[2.739s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__struct.h
+[2.741s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__type_support.h
+[2.745s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__functions.h
+[2.747s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__struct.h
+[2.747s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__type_support.h
+[2.748s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__functions.h
+[2.748s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__struct.h
+[2.748s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__type_support.h
+[2.750s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/motor_gains.h
+[2.753s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/operating_modes.h
+[2.753s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/reboot.h
+[2.754s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/register_values.h
+[2.754s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/robot_info.h
+[2.754s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/torque_enable.h
+[2.755s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.sh
+[2.755s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/library_path.dsv
+[2.756s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_c.h
+[2.756s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_c.h
+[2.756s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_c.h
+[2.756s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_c.h
+[2.756s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_c.h
+[2.757s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_c.h
+[2.762s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_c.h
+[2.762s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_c.h
+[2.763s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.765s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_c.h
+[2.767s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_c.h
+[2.774s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_c.h
+[2.774s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_c.h
+[2.776s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h
+[2.776s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_c.h
+[2.776s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_c.h
+[2.777s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_c.h
+[2.777s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_c.h
+[2.780s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_c.h
+[2.780s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_c.h
+[2.781s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_c.h
+[2.781s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_c.h
+[2.781s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_c.h
+[2.781s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.782s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_c.h
+[2.786s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_c.h
+[2.788s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_c.h
+[2.794s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_c.h
+[2.794s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_c.h
+[2.795s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_c.h
+[2.803s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/arm_joy.hpp
+[2.806s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__builder.hpp
+[2.808s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__struct.hpp
+[2.812s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__traits.hpp
+[2.816s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__builder.hpp
+[2.816s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__struct.hpp
+[2.816s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__traits.hpp
+[2.817s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__builder.hpp
+[2.817s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__struct.hpp
+[2.817s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__traits.hpp
+[2.817s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__builder.hpp
+[2.817s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__struct.hpp
+[2.817s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__traits.hpp
+[2.821s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__builder.hpp
+[2.821s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__struct.hpp
+[2.822s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__traits.hpp
+[2.822s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__builder.hpp
+[2.825s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__struct.hpp
+[2.825s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__traits.hpp
+[2.825s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__builder.hpp
+[2.826s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__struct.hpp
+[2.826s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__traits.hpp
+[2.826s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__builder.hpp
+[2.826s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__struct.hpp
+[2.826s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__traits.hpp
+[2.827s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/hex_joy.hpp
+[2.827s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_group_command.hpp
+[2.827s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_single_command.hpp
+[2.827s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_temps.hpp
+[2.827s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/joint_trajectory_command.hpp
+[2.827s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/locobot_joy.hpp
+[2.828s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/turret_joy.hpp
+[2.833s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__builder.hpp
+[2.837s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__struct.hpp
+[2.837s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__traits.hpp
+[2.837s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__builder.hpp
+[2.838s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__struct.hpp
+[2.838s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__traits.hpp
+[2.838s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__builder.hpp
+[2.839s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__struct.hpp
+[2.839s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__traits.hpp
+[2.839s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__builder.hpp
+[2.839s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__struct.hpp
+[2.840s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__traits.hpp
+[2.847s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__builder.hpp
+[2.847s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__struct.hpp
+[2.847s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__traits.hpp
+[2.847s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__builder.hpp
+[2.848s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__struct.hpp
+[2.848s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__traits.hpp
+[2.848s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/motor_gains.hpp
+[2.848s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/operating_modes.hpp
+[2.849s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/reboot.hpp
+[2.849s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/register_values.hpp
+[2.851s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/robot_info.hpp
+[2.851s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/torque_enable.hpp
+[2.851s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.851s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.852s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.858s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.858s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_fastrtps_cpp.hpp
+[2.858s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.859s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.859s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.859s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.859s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_fastrtps_cpp.hpp
+[2.859s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_fastrtps_cpp.hpp
+[2.860s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_fastrtps_cpp.hpp
+[2.863s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_fastrtps_cpp.hpp
+[2.863s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.863s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_fastrtps_cpp.hpp
+[2.863s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/arm_joy__rosidl_typesupport_introspection_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/hex_joy__rosidl_typesupport_introspection_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_group_command__rosidl_typesupport_introspection_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_single_command__rosidl_typesupport_introspection_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_temps__rosidl_typesupport_introspection_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/joint_trajectory_command__rosidl_typesupport_introspection_cpp.hpp
+[2.864s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/locobot_joy__rosidl_typesupport_introspection_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/msg/detail/turret_joy__rosidl_typesupport_introspection_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/motor_gains__rosidl_typesupport_introspection_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/operating_modes__rosidl_typesupport_introspection_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/reboot__rosidl_typesupport_introspection_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/register_values__rosidl_typesupport_introspection_cpp.hpp
+[2.865s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/robot_info__rosidl_typesupport_introspection_cpp.hpp
+[2.866s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/include/interbotix_xs_msgs/interbotix_xs_msgs/srv/detail/torque_enable__rosidl_typesupport_introspection_cpp.hpp
+[2.870s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.sh
+[2.870s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/pythonpath.dsv
+[2.871s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.871s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.871s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.871s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.871s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/__init__.py
+[2.871s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_c.c
+[2.872s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.872s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/_interbotix_xs_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.872s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.872s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.872s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.872s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/libinterbotix_xs_msgs__rosidl_generator_py.so
+[2.873s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/__init__.py
+[2.880s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy.py
+[2.880s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_arm_joy_s.c
+[2.880s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy.py
+[2.880s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_hex_joy_s.c
+[2.881s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command.py
+[2.881s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_group_command_s.c
+[2.881s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command.py
+[2.881s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_single_command_s.c
+[2.881s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps.py
+[2.881s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_temps_s.c
+[2.882s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command.py
+[2.882s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_joint_trajectory_command_s.c
+[2.882s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy.py
+[2.882s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_locobot_joy_s.c
+[2.882s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy.py
+[2.887s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg/_turret_joy_s.c
+[2.887s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/__init__.py
+[2.887s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains.py
+[2.887s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_motor_gains_s.c
+[2.888s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes.py
+[2.888s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_operating_modes_s.c
+[2.888s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot.py
+[2.888s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_reboot_s.c
+[2.888s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values.py
+[2.889s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_register_values_s.c
+[2.889s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info.py
+[2.889s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_robot_info_s.c
+[2.889s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable.py
+[2.889s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv/_torque_enable_s.c
+[2.890s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.896s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.896s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/interbotix_xs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.896s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.idl
+[2.896s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.idl
+[2.897s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.idl
+[2.897s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.idl
+[2.897s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.idl
+[2.897s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.idl
+[2.897s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.idl
+[2.897s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.idl
+[2.898s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/ArmJoy.msg
+[2.899s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/HexJoy.msg
+[2.905s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointGroupCommand.msg
+[2.905s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointSingleCommand.msg
+[2.905s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTemps.msg
+[2.906s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg
+[2.906s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/LocobotJoy.msg
+[2.906s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/msg/TurretJoy.msg
+[2.906s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains.srv
+[2.906s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Request.msg
+[2.907s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/MotorGains_Response.msg
+[2.907s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes.srv
+[2.907s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Request.msg
+[2.907s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/OperatingModes_Response.msg
+[2.907s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot.srv
+[2.913s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Request.msg
+[2.913s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/Reboot_Response.msg
+[2.914s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues.srv
+[2.914s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Request.msg
+[2.914s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RegisterValues_Response.msg
+[2.914s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo.srv
+[2.914s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Request.msg
+[2.914s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/RobotInfo_Response.msg
+[2.915s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable.srv
+[2.918s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Request.msg
+[2.918s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/srv/TorqueEnable_Response.msg
+[2.918s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_msgs
+[2.919s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_msgs
+[2.919s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.sh
+[2.919s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/ament_prefix_path.dsv
+[2.919s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.sh
+[2.919s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/environment/path.dsv
+[2.920s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.bash
+[2.920s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.sh
+[2.920s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.zsh
+[2.920s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/local_setup.dsv
+[2.920s] -- Symlinking: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.dsv
+[2.921s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/ament_index/resource_index/packages/interbotix_xs_msgs
+[2.924s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake-extras.cmake
+[2.924s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.925s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.925s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.925s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.925s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.926s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.926s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig.cmake
+[2.926s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig-version.cmake
+[2.926s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.xml
+[2.926s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_c.so
+[2.926s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_c.so
+[2.927s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_c.so
+[2.927s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_c.so
+[2.927s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.927s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_introspection_cpp.so
+[2.927s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_typesupport_cpp.so
+[2.998s] Listing '/home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs'...
+[2.998s] Listing '/home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/msg'...
+[2.999s] Listing '/home/amir/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages/interbotix_xs_msgs/srv'...
+[3.013s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/lib/libinterbotix_xs_msgs__rosidl_generator_py.so
+[3.014s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cExport.cmake
+[3.015s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.015s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.015s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.015s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.015s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.016s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport.cmake
+[3.016s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.017s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_cppExport.cmake
+[3.017s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.017s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.018s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.018s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.019s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport.cmake
+[3.020s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.020s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_pyExport.cmake
+[3.021s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake/export_interbotix_xs_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.026s] Invoked command in '/home/amir/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/interbotix_xs_msgs

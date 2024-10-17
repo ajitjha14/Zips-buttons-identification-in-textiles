@@ -1,0 +1,15 @@
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/ament_index/resource_index/package_run_dependencies/interbotix_common_toolbox
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/ament_index/resource_index/parent_prefix_path/interbotix_common_toolbox
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/ament_prefix_path.sh
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/ament_prefix_path.dsv
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/path.sh
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/environment/path.dsv
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.bash
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.sh
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.zsh
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/local_setup.dsv
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/package.dsv
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/ament_index/resource_index/packages/interbotix_common_toolbox
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/cmake/interbotix_common_toolboxConfig.cmake
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/cmake/interbotix_common_toolboxConfig-version.cmake
+/home/amir/interbotix_ws/install/interbotix_common_toolbox/share/interbotix_common_toolbox/package.xml

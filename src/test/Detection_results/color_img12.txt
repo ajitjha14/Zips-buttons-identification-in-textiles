@@ -1,0 +1,2 @@
+Class: Jacket,  Confidence: 0.87,Center: (372.00, 269.50)
+Class: Zip,  Confidence: 0.42,Center: (354.00, 269.50)

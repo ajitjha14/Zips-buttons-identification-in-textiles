@@ -1,0 +1,25 @@
+[0.639s] Invoking command in '/home/amir/interbotix_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/realsense2_camera_msgs -- -j4 -l4
+[0.824s] [ 10%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.833s] [ 12%] Built target realsense2_camera_msgs__cpp
+[0.883s] [ 12%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.924s] [ 23%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.934s] [ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.954s] [ 45%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[1.002s] [ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.038s] [ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[1.067s] [ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[1.150s] [ 78%] Built target realsense2_camera_msgs
+[1.224s] [ 80%] Built target realsense2_camera_msgs__py
+[1.282s] [ 89%] Built target realsense2_camera_msgs__rosidl_generator_py
+[1.389s] [ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[1.400s] [ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.401s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[1.731s] running egg_info
+[1.785s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[1.786s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[1.787s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[1.962s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.964s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.990s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg] Interrupt
+[1.990s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg.dir/all] Interrupt
+[1.990s] gmake: *** [Makefile:146: all] Interrupt
