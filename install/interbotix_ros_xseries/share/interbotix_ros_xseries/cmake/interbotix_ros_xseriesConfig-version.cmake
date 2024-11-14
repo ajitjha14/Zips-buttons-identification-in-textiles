@@ -1,0 +1,1 @@
+/home/amir/interbotix_ws/build/interbotix_ros_xseries/ament_cmake_core/interbotix_ros_xseriesConfig-version.cmake

@@ -1,0 +1,154 @@
+[0.071s] Invoking command in '/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/amir/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs -DCMAKE_INSTALL_PREFIX=/home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs
+[0.144s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.144s] -- Found ament_cmake_core: 1.3.10 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.645s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.711s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.034s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.105s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.828s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.021s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.762s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.882s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.030s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.031s] -- Using PYTHON_INCLUDE_DIRS: /usr/local/include/python3.10
+[6.031s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.911s] -- Using numpy include directory: /usr/lib/python3/dist-packages/numpy/core/include
+[7.047s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.138s] -- Configuring done
+[7.375s] -- Generating done
+[7.392s] -- Build files have been written to: /home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs
+[7.442s] Invoked command in '/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/amir/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs -DCMAKE_INSTALL_PREFIX=/home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs
+[7.444s] Invoking command in '/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs -- -j4 -l4
+[7.714s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_generator_c[0m
+[7.761s] [  3%] Built target interbotix_moveit_interface_msgs__cpp
+[7.785s] [ 12%] Built target interbotix_moveit_interface_msgs__rosidl_generator_c
+[7.804s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_cpp[0m
+[7.821s] [ 12%] Built target ament_cmake_python_symlink_interbotix_moveit_interface_msgs
+[7.837s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.895s] [ 22%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_cpp
+[7.910s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.942s] [ 32%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp
+[7.973s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c[0m
+[8.000s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c[0m
+[8.011s] [ 41%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp
+[8.066s] [ 51%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c
+[8.069s] [ 61%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c
+[8.080s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_c[0m
+[8.143s] [ 70%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c
+[8.266s] [ 70%] Built target interbotix_moveit_interface_msgs
+[8.366s] [ 74%] Built target interbotix_moveit_interface_msgs__py
+[8.450s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_generator_py[0m
+[8.541s] [ 80%] Built target interbotix_moveit_interface_msgs__rosidl_generator_py
+[8.614s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.702s] [ 87%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.765s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext[0m
+[8.832s] [ 93%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext
+[8.915s] [35m[1mConsolidate compiler generated dependencies of target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[8.987s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext
+[9.340s] running egg_info
+[9.448s] writing interbotix_moveit_interface_msgs.egg-info/PKG-INFO
+[9.450s] writing dependency_links to interbotix_moveit_interface_msgs.egg-info/dependency_links.txt
+[9.456s] writing top-level names to interbotix_moveit_interface_msgs.egg-info/top_level.txt
+[9.908s] reading manifest file 'interbotix_moveit_interface_msgs.egg-info/SOURCES.txt'
+[9.914s] writing manifest file 'interbotix_moveit_interface_msgs.egg-info/SOURCES.txt'
+[10.051s] [100%] Built target ament_cmake_python_build_interbotix_moveit_interface_msgs_egg
+[10.114s] Invoked command in '/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs -- -j4 -l4
+[10.478s] Invoking command in '/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs
+[10.507s] -- Install configuration: ""
+[10.511s] -- Execute custom install script
+[10.515s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_moveit_interface_msgs
+[10.515s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.517s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__functions.h
+[10.518s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.h
+[10.520s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.h
+[10.526s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/move_it_plan.h
+[10.530s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/library_path.sh
+[10.530s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/library_path.dsv
+[10.539s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.544s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_fastrtps_c.h
+[10.545s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.545s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_introspection_c.h
+[10.546s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__builder.hpp
+[10.546s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.hpp
+[10.546s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__traits.hpp
+[10.553s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/move_it_plan.hpp
+[10.553s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.554s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[10.554s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__rosidl_typesupport_introspection_cpp.hpp
+[10.554s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/pythonpath.sh
+[10.554s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/pythonpath.dsv
+[10.560s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[10.574s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.574s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.575s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[10.575s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/__init__.py
+[10.575s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_c.c
+[10.575s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.575s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.585s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.585s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.585s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.586s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/libinterbotix_moveit_interface_msgs__rosidl_generator_py.so
+[10.586s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/srv/__init__.py
+[10.586s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/srv/_move_it_plan.py
+[10.586s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/srv/_move_it_plan_s.c
+[10.586s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.587s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.587s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.587s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan.idl
+[10.587s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan.srv
+[10.587s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan_Request.msg
+[10.592s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/srv/MoveItPlan_Response.msg
+[10.592s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_moveit_interface_msgs
+[10.592s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_moveit_interface_msgs
+[10.593s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/ament_prefix_path.sh
+[10.593s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/ament_prefix_path.dsv
+[10.593s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/path.sh
+[10.604s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/environment/path.dsv
+[10.604s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.bash
+[10.605s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.sh
+[10.605s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.zsh
+[10.605s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/local_setup.dsv
+[10.605s] -- Symlinking: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/package.dsv
+[10.633s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/ament_index/resource_index/packages/interbotix_moveit_interface_msgs
+[10.635s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/rosidl_cmake-extras.cmake
+[10.637s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.641s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.643s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.645s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.646s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.649s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.651s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgsConfig.cmake
+[10.652s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgsConfig-version.cmake
+[10.654s] -- Up-to-date symlink: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/package.xml
+[10.655s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_generator_c.so
+[10.659s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.so
+[10.663s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c.so
+[10.664s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_c.so
+[10.668s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.670s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.so
+[10.675s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_typesupport_cpp.so
+[10.893s] Listing '/home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs'...
+[10.893s] Compiling '/home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/__init__.py'...
+[10.893s] Listing '/home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages/interbotix_moveit_interface_msgs/srv'...
+[10.916s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/libinterbotix_moveit_interface_msgs__rosidl_generator_py.so
+[10.916s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_generator_cExport.cmake
+[10.917s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.917s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.917s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.917s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.917s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.917s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cExport.cmake
+[10.918s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.918s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_generator_cppExport.cmake
+[10.918s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.918s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.918s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.918s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.919s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cppExport.cmake
+[10.923s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/interbotix_moveit_interface_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.923s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_generator_pyExport.cmake
+[10.923s] -- Up-to-date: /home/amir/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake/export_interbotix_moveit_interface_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.041s] Invoked command in '/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs

@@ -1,0 +1,26 @@
+
+ros2 launch interbotix_xsarm_control xsarm_control.launch.py robot_model:=wx250s
+
+cd ~/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control/demos
+python3 bartender.py
+
+
+
+
+
+
+
+
+camera pkg 
+cd ~/camera_intel/src/camera_intel/camera_intel
+
+
+
+
+ros2 run camera_intel intel_pub
+
+
+
+ros2 run camera_intel intel_sub
+
+

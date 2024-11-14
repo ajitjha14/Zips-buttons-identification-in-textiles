@@ -1,0 +1,24 @@
+[0.056s] Invoking command in '/home/amir/interbotix_ws/build/interbotix_xs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/interbotix_xs_msgs -- -j4 -l4
+[0.664s] [  0%] Built target interbotix_xs_msgs__cpp
+[0.664s] [ 12%] Built target interbotix_xs_msgs__rosidl_generator_c
+[0.664s] [ 12%] Built target ament_cmake_python_symlink_interbotix_xs_msgs
+[0.664s] [ 24%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp
+[0.664s] [ 36%] Built target interbotix_xs_msgs__rosidl_typesupport_cpp
+[0.665s] [ 48%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_cpp
+[0.665s] [ 60%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c
+[0.665s] [ 72%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c
+[0.665s] [ 84%] Built target interbotix_xs_msgs__rosidl_typesupport_c
+[0.665s] [ 84%] Built target interbotix_xs_msgs
+[0.666s] [ 85%] Built target interbotix_xs_msgs__py
+[0.666s] [ 96%] Built target interbotix_xs_msgs__rosidl_generator_py
+[0.666s] [ 97%] Built target interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.666s] [ 99%] Built target interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext
+[0.666s] [100%] Built target interbotix_xs_msgs__rosidl_typesupport_c__pyext
+[0.870s] running egg_info
+[0.926s] writing interbotix_xs_msgs.egg-info/PKG-INFO
+[0.927s] writing dependency_links to interbotix_xs_msgs.egg-info/dependency_links.txt
+[0.927s] writing top-level names to interbotix_xs_msgs.egg-info/top_level.txt
+[1.128s] reading manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.129s] writing manifest file 'interbotix_xs_msgs.egg-info/SOURCES.txt'
+[1.219s] [100%] Built target ament_cmake_python_build_interbotix_xs_msgs_egg
+[1.265s] Invoked command in '/home/amir/interbotix_ws/build/interbotix_xs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/camera_intel/install/camera_intel:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/interbotix_xs_msgs -- -j4 -l4

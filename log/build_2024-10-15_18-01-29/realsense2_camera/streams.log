@@ -1,0 +1,89 @@
+[0.028s] Invoking command in '/home/amir/interbotix_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/realsense2_camera -- -j4 -l4
+[0.087s] -- Create Release Build.
+[0.087s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.419s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.425s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.439s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.636s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[0.695s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.699s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.905s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.008s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.040s] -- Found realsense2_camera_msgs: 4.55.1 (/opt/ros/humble/share/realsense2_camera_msgs/cmake)
+[1.074s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.104s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.212s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.246s] -- Build for ROS2 Humble
+[1.450s] -- Configuring done
+[1.495s] -- Generating done
+[1.500s] -- Build files have been written to: /home/amir/interbotix_ws/build/realsense2_camera
+[1.565s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_node[0m
+[1.589s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera[0m
+[1.605s] [  6%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[1.716s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[1.727s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[1.727s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[11.782s] [ 31%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[12.090s] [ 31%] Built target realsense2_camera_node
+[12.118s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[20.497s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[33.473s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[36.381s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[39.495s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[43.809s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[46.977s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[50.309s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[53.581s] [ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[63.587s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[74.743s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[75.379s] [100%] Built target realsense2_camera
+[75.397s] Invoked command in '/home/amir/interbotix_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/amir/interbotix_ws/build/realsense2_camera -- -j4 -l4
+[75.534s] Invoking command in '/home/amir/interbotix_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/realsense2_camera
+[75.547s] -- Install configuration: "Release"
+[75.548s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[75.548s] -- Set runtime path of "/home/amir/interbotix_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[75.549s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[75.553s] -- Set runtime path of "/home/amir/interbotix_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[75.554s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/include
+[75.554s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/image_publisher.h
+[75.554s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/ros_utils.h
+[75.554s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/include/ros_param_backend.h
+[75.555s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/constants.h
+[75.555s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/include/named_filter.h
+[75.555s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/include/realsense_node_factory.h
+[75.555s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/ros_sensor.h
+[75.555s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/profile_manager.h
+[75.555s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/include/sensor_params.h
+[75.555s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/dynamic_params.h
+[75.555s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/include/base_realsense_node.h
+[75.556s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/launch
+[75.556s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[75.556s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[75.556s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[75.556s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[75.556s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[75.557s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[75.557s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[75.557s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[75.557s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[75.557s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[75.558s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[75.558s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[75.558s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[75.558s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[75.558s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[75.558s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[75.559s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[75.559s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[75.559s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[75.559s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.559s] -- Up-to-date: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[75.559s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.560s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[75.560s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[75.560s] -- Installing: /home/amir/interbotix_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[75.564s] Invoked command in '/home/amir/interbotix_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amir/interbotix_ws/install/interbotix_xs_modules:/home/amir/interbotix_ws/install/interbotix_perception_modules:/home/amir/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/amir/interbotix_ws/build/realsense2_camera

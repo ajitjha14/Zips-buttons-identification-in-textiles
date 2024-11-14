@@ -1,0 +1,6 @@
+train: C:\Users\omara\OneDrive\Skrivebord\training test - 2\train\images
+val: C:\Users\omara\OneDrive\Skrivebord\training test - 2\val\images
+test: C:\Users\omara\OneDrive\Skrivebord\training test - 2\test\images
+
+nc: 4
+names: ['Zip', 'Buttons', 'Shirt', 'Jacket']
