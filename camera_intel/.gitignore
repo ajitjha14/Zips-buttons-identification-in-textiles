@@ -1,18 +1,38 @@
-.99-realsense-libusb.rules
-.bash*
-.cache/
-.config/
-.dotnet/
-.gitconfig
-.ipython/
-.local/
-.log/
-.snap/
-.rviz2/
-frames_*.gv
-frames_*.pdf
-librealsense/
-python_venv/
-ros2_humble/
-xsarm_amd64_install.sh
+# Ignore user environment files
+../.99-realsense-libusb.rules
+../.bash*
+../.cache/
+../.config/
+../.dotnet/
+../.gitconfig
+../.ipython/
+../.local/
+../.pam_environment
+../.pki/
+../.ros/
+../.rviz2/
+../.ssh/
+../.thunderbird/
+../.vscode/
+
+# Ignore user workspace directories
+../Desktop/
+../Documents/
+../Downloads/
+../Lab_Python_basics/
+../Pictures/
+../Robot_ws/
+../Videos/
+
+# Ignore specific files
+../frames_*.gv
+../frames_*.pdf
+
+# Ignore other unnecessary directories
+../log/
+../snap/
+../python_venv/
+../ros2_humble/
+../interbotix_ws/
+../blablabla/
 
