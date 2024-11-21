@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_moveit_interface_msgs/rosidl_cmake/srv/MoveItPlan_Request.msg

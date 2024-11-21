@@ -1,7 +1,0 @@
-# Ignore submodule directories
-src/interbotix_ros_core/
-src/interbotix_ros_manipulators/
-src/interbotix_ros_toolboxes/
-src/moveit_visual_tools/
-src/realsense-ros/
-

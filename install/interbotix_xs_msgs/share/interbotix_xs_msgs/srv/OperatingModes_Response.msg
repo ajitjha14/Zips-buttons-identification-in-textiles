@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_xs_msgs/rosidl_cmake/srv/OperatingModes_Response.msg

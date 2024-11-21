@@ -1,9 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/uninstall.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/interbotix_ros_xsarms_uninstall.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/test.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/edit_cache.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/rebuild_cache.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/list_install_components.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/install.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/install/local.dir
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/CMakeFiles/install/strip.dir

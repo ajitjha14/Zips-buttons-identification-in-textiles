@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_xsarm_joy/ament_cmake_core/interbotix_xsarm_joyConfig.cmake

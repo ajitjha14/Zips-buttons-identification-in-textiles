@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_perception_msgs/rosidl_typesupport_fastrtps_cpp/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_fastrtps_cpp.hpp

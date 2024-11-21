@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim/launch/xsarm_gz_classic.launch.py
