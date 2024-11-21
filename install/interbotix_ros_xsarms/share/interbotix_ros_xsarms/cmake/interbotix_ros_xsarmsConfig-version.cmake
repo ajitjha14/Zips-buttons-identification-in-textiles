@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_ros_xsarms/ament_cmake_core/interbotix_ros_xsarmsConfig-version.cmake

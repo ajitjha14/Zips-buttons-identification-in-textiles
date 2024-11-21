@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_xsarm_moveit_interface/ament_cmake_core/interbotix_xsarm_moveit_interfaceConfig-version.cmake

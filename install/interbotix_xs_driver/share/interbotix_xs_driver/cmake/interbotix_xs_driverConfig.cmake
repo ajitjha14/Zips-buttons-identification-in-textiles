@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_xs_driver/ament_cmake_core/interbotix_xs_driverConfig.cmake

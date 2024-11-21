@@ -1,1 +1,0 @@
-/home/amir/interbotix_ws/build/interbotix_perception_msgs/rosidl_typesupport_fastrtps_c/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_fastrtps_c.h
