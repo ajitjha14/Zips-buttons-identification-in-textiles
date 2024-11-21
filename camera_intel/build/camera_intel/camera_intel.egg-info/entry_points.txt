@@ -1,8 +1,0 @@
-[console_scripts]
-Depth_wcoordinate = camera_intel.Depth_wcoordinate:main
-camera_publisher = camera_intel.camera_publisher:main
-camera_subscriber = camera_intel.camera_subscriber:main
-intel_pub = camera_intel.intel_pub:main
-intel_sub = camera_intel.intel_sub:main
-real_time_test_publisher = camera_intel.real_time_test_publisher:main
-real_time_test_subscriber = camera_intel.real_time_test_subscriber:main
