@@ -1,0 +1,3 @@
+[submodule "camera_intel/src/Dh/urdf_to_dh"]
+	path = camera_intel/src/Dh/urdf_to_dh
+	url = https://github.com/mcevoyandy/urdf_to_dh.git
