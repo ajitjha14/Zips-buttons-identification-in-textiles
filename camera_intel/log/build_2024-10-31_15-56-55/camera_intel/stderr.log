@@ -1,5 +1,0 @@
-  File "/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel/intel_pub.py", line 55
-    
-    ^
-SyntaxError: expected 'except' or 'finally' block
-
