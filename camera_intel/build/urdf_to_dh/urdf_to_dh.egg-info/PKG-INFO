@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: urdf-to-dh
+Version: 0.0.1
+Summary: Generate DH parameters from a URDF
+Maintainer: andy
+Maintainer-email: andy.mcevoy@sslmda.com
+License: Apache 2
+License-File: LICENSE

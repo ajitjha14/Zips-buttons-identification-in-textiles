@@ -1,0 +1,299 @@
+Starting GenerateDhParams Node...
+URDF Tree:
+wx250s/base_link
+└── waist
+    └── wx250s/shoulder_link
+        └── shoulder
+            └── wx250s/upper_arm_link
+                └── elbow
+                    └── wx250s/upper_forearm_link
+                        └── forearm_roll
+                            └── wx250s/lower_forearm_link
+                                └── wrist_angle
+                                    └── wx250s/wrist_link
+                                        └── wrist_rotate
+                                            └── wx250s/gripper_link
+                                                └── ee_arm
+                                                    └── wx250s/ee_arm_link
+                                                        ├── gripper
+                                                        │   └── wx250s/gripper_prop_link
+                                                        └── gripper_bar
+                                                            └── wx250s/gripper_bar_link
+                                                                └── ee_bar
+                                                                    └── wx250s/fingers_link
+                                                                        ├── left_finger
+                                                                        │   └── wx250s/left_finger_link
+                                                                        ├── right_finger
+                                                                        │   └── wx250s/right_finger_link
+                                                                        ├── ee_gripper
+                                                                        │   └── wx250s/ee_gripper_link
+                                                                        └── camera_joint
+                                                                            └── camera_link
+Joint Info:
+{'camera_joint': {'axis': array([1, 0, 0]),
+                  'child': 'camera_link',
+                  'dh': array([0., 0., 0., 0.]),
+                  'parent': 'wx250s/fingers_link',
+                  'rpy': array([0., 0., 0.]),
+                  'xyz': array([0.02 , 0.   , 0.055])},
+ 'ee_arm': {'axis': array([1., 0., 0.]),
+            'child': 'wx250s/ee_arm_link',
+            'dh': array([0., 0., 0., 0.]),
+            'parent': 'wx250s/gripper_link',
+            'rpy': array([0., 0., 0.]),
+            'xyz': array([0.043, 0.   , 0.   ])},
+ 'ee_bar': {'axis': array([1., 0., 0.]),
+            'child': 'wx250s/fingers_link',
+            'dh': array([0., 0., 0., 0.]),
+            'parent': 'wx250s/gripper_bar_link',
+            'rpy': array([0., 0., 0.]),
+            'xyz': array([0.023, 0.   , 0.   ])},
+ 'ee_gripper': {'axis': array([1., 0., 0.]),
+                'child': 'wx250s/ee_gripper_link',
+                'dh': array([0., 0., 0., 0.]),
+                'parent': 'wx250s/fingers_link',
+                'rpy': array([0., 0., 0.]),
+                'xyz': array([0.027575, 0.      , 0.      ])},
+ 'elbow': {'axis': array([0., 1., 0.]),
+           'child': 'wx250s/upper_forearm_link',
+           'dh': array([0., 0., 0., 0.]),
+           'parent': 'wx250s/upper_arm_link',
+           'rpy': array([0., 0., 0.]),
+           'xyz': array([0.04975, 0.     , 0.25   ])},
+ 'forearm_roll': {'axis': array([1., 0., 0.]),
+                  'child': 'wx250s/lower_forearm_link',
+                  'dh': array([0., 0., 0., 0.]),
+                  'parent': 'wx250s/upper_forearm_link',
+                  'rpy': array([0., 0., 0.]),
+                  'xyz': array([0.175, 0.   , 0.   ])},
+ 'gripper': {'axis': array([1., 0., 0.]),
+             'child': 'wx250s/gripper_prop_link',
+             'dh': array([0., 0., 0., 0.]),
+             'parent': 'wx250s/ee_arm_link',
+             'rpy': array([0., 0., 0.]),
+             'xyz': array([0.0055, 0.    , 0.    ])},
+ 'gripper_bar': {'axis': array([1., 0., 0.]),
+                 'child': 'wx250s/gripper_bar_link',
+                 'dh': array([0., 0., 0., 0.]),
+                 'parent': 'wx250s/ee_arm_link',
+                 'rpy': array([0., 0., 0.]),
+                 'xyz': array([0., 0., 0.])},
+ 'left_finger': {'axis': array([0., 1., 0.]),
+                 'child': 'wx250s/left_finger_link',
+                 'dh': array([0., 0., 0., 0.]),
+                 'parent': 'wx250s/fingers_link',
+                 'rpy': array([0., 0., 0.]),
+                 'xyz': array([0., 0., 0.])},
+ 'right_finger': {'axis': array([0., 1., 0.]),
+                  'child': 'wx250s/right_finger_link',
+                  'dh': array([0., 0., 0., 0.]),
+                  'parent': 'wx250s/fingers_link',
+                  'rpy': array([0., 0., 0.]),
+                  'xyz': array([0., 0., 0.])},
+ 'shoulder': {'axis': array([0., 1., 0.]),
+              'child': 'wx250s/upper_arm_link',
+              'dh': array([0., 0., 0., 0.]),
+              'parent': 'wx250s/shoulder_link',
+              'rpy': array([0., 0., 0.]),
+              'xyz': array([0.     , 0.     , 0.03865])},
+ 'waist': {'axis': array([0., 0., 1.]),
+           'child': 'wx250s/shoulder_link',
+           'dh': array([0., 0., 0., 0.]),
+           'parent': 'wx250s/base_link',
+           'rpy': array([0., 0., 0.]),
+           'xyz': array([0.   , 0.   , 0.072])},
+ 'wrist_angle': {'axis': array([0., 1., 0.]),
+                 'child': 'wx250s/wrist_link',
+                 'dh': array([0., 0., 0., 0.]),
+                 'parent': 'wx250s/lower_forearm_link',
+                 'rpy': array([0., 0., 0.]),
+                 'xyz': array([0.075, 0.   , 0.   ])},
+ 'wrist_rotate': {'axis': array([1., 0., 0.]),
+                  'child': 'wx250s/gripper_link',
+                  'dh': array([0., 0., 0., 0.]),
+                  'parent': 'wx250s/wrist_link',
+                  'rpy': array([0., 0., 0.]),
+                  'xyz': array([0.065, 0.   , 0.   ])}}
+Calculate world tfs:
+
+get tf from  wx250s/base_link  to  wx250s/shoulder_link
+
+get tf from  wx250s/shoulder_link  to  wx250s/upper_arm_link
+
+get tf from  wx250s/upper_arm_link  to  wx250s/upper_forearm_link
+
+get tf from  wx250s/upper_forearm_link  to  wx250s/lower_forearm_link
+
+get tf from  wx250s/lower_forearm_link  to  wx250s/wrist_link
+
+get tf from  wx250s/wrist_link  to  wx250s/gripper_link
+
+get tf from  wx250s/gripper_link  to  wx250s/ee_arm_link
+
+get tf from  wx250s/ee_arm_link  to  wx250s/gripper_prop_link
+
+get tf from  wx250s/ee_arm_link  to  wx250s/gripper_bar_link
+
+get tf from  wx250s/gripper_bar_link  to  wx250s/fingers_link
+
+get tf from  wx250s/fingers_link  to  wx250s/left_finger_link
+
+get tf from  wx250s/fingers_link  to  wx250s/right_finger_link
+
+get tf from  wx250s/fingers_link  to  wx250s/ee_gripper_link
+
+get tf from  wx250s/fingers_link  to  camera_link
+calculate_dh_params
+process_order = 
+ ['wx250s/base_link', 'waist', 'wx250s/shoulder_link', 'shoulder', 'wx250s/upper_arm_link', 'elbow', 'wx250s/upper_forearm_link', 'forearm_roll', 'wx250s/lower_forearm_link', 'wrist_angle', 'wx250s/wrist_link', 'wrist_rotate', 'wx250s/gripper_link', 'ee_arm', 'wx250s/ee_arm_link', 'gripper', 'gripper_bar', 'wx250s/gripper_prop_link', 'wx250s/gripper_bar_link', 'ee_bar', 'wx250s/fingers_link', 'left_finger', 'right_finger', 'ee_gripper', 'camera_joint', 'wx250s/left_finger_link', 'wx250s/right_finger_link', 'wx250s/ee_gripper_link', 'camera_link']
+
+
+process dh params for  wx250s/shoulder_link
+[0. 0. 1.]
+  Process collinear case.
+[0.072 0.    0.    0.   ]
+
+
+process dh params for  wx250s/upper_arm_link
+[0. 1. 0.]
+  Process intersection case.
+[[1.      0.      0.      0.     ]
+ [0.      1.      0.      0.     ]
+ [0.      0.      1.      0.03865]
+ [0.      0.      0.      1.     ]]
+0.0
+[ 0.03865    -0.          0.         -1.57079633]
+
+
+process dh params for  wx250s/upper_forearm_link
+[0.000000e+00 6.123234e-17 1.000000e+00]
+  Process parallel case.
+[ 1.53080850e-17 -1.37436249e+00  2.54902065e-01  0.00000000e+00]
+
+
+process dh params for  wx250s/lower_forearm_link
+[0.195173   0.98076883 0.        ]
+  Process intersection case.
+[[ 1.95172997e-01 -6.00547705e-17  9.80768832e-01  3.41552746e-02]
+ [ 9.80768832e-01  1.19508993e-17 -1.95172997e-01  1.71634546e-01]
+ [ 0.00000000e+00  1.00000000e+00  6.12323400e-17  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000000e+00]]
+-0.19643383673803588
+[ 0.         -0.19643384  0.         -1.57079633]
+
+
+process dh params for  wx250s/wrist_link
+[-6.123234e-17 -1.000000e+00  6.123234e-17]
+  Process intersection case.
+[[ 1.18805964e-17 -6.12323400e-17  1.00000000e+00  0.00000000e+00]
+ [ 6.12323400e-17 -1.00000000e+00 -6.12323400e-17  1.53080850e-17]
+ [ 1.00000000e+00  6.12323400e-17  1.18805964e-17  2.50000000e-01]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000000e+00]]
+0.0
+[0.25       0.         0.         1.57079633]
+
+
+process dh params for  wx250s/gripper_link
+[ 1.18805964e-17  1.00000000e+00 -1.23259516e-32]
+  Process intersection case.
+[[ 1.18805964e-17 -6.12323400e-17  1.00000000e+00  0.00000000e+00]
+ [ 1.00000000e+00  0.00000000e+00  1.18805964e-17  6.50000000e-02]
+ [-1.23259516e-32  1.00000000e+00  6.12323400e-17 -1.53080850e-17]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000000e+00]]
+0.0
+[-1.53080850e-17 -0.00000000e+00  0.00000000e+00 -1.57079633e+00]
+
+
+process dh params for  wx250s/ee_arm_link
+[1.18805964e-17 6.12323400e-17 1.00000000e+00]
+  Process collinear case.
+[0.108 0.    0.    0.   ]
+
+
+process dh params for  wx250s/gripper_prop_link
+[1.18805964e-17 6.12323400e-17 1.00000000e+00]
+  Process collinear case.
+[0.0055 0.     0.     0.    ]
+
+
+process dh params for  wx250s/gripper_bar_link
+[1.18805964e-17 6.12323400e-17 1.00000000e+00]
+  Process collinear case.
+[0. 0. 0. 0.]
+
+
+process dh params for  wx250s/fingers_link
+[1.18805964e-17 6.12323400e-17 1.00000000e+00]
+  Process collinear case.
+[0.023 0.    0.    0.   ]
+
+
+process dh params for  wx250s/left_finger_link
+[-6.123234e-17 -1.000000e+00  6.123234e-17]
+  Process intersection case.
+[[ 1.18805964e-17 -6.12323400e-17  1.00000000e+00  0.00000000e+00]
+ [ 6.12323400e-17 -1.00000000e+00 -6.12323400e-17  8.02143653e-18]
+ [ 1.00000000e+00  6.12323400e-17  1.18805964e-17  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000000e+00]]
+0.0
+[4.91171329e-34 0.00000000e+00 0.00000000e+00 1.57079633e+00]
+
+
+process dh params for  wx250s/right_finger_link
+[-6.123234e-17 -1.000000e+00  6.123234e-17]
+  Process intersection case.
+[[ 1.18805964e-17 -6.12323400e-17  1.00000000e+00  0.00000000e+00]
+ [ 6.12323400e-17 -1.00000000e+00 -6.12323400e-17  8.02143653e-18]
+ [ 1.00000000e+00  6.12323400e-17  1.18805964e-17  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000000e+00]]
+0.0
+[4.91171329e-34 0.00000000e+00 0.00000000e+00 1.57079633e+00]
+
+
+process dh params for  wx250s/ee_gripper_link
+[1.18805964e-17 6.12323400e-17 1.00000000e+00]
+  Process collinear case.
+[0.027575 0.       0.       0.      ]
+
+
+process dh params for  camera_link
+[1.18805964e-17 6.12323400e-17 1.00000000e+00]
+  Process parallel case.
+[2.00000000e-02 1.06878266e-16 5.50000000e-02 0.00000000e+00]
+
+DH Parameters: (csv)
+,joint,parent,child,d,theta,r,alpha
+0,waist,wx250s/base_link,wx250s/shoulder_link,0.072,0.0,0.0,0.0
+1,shoulder,wx250s/shoulder_link,wx250s/upper_arm_link,0.03865,-0.0,0.0,-90.0002104591497
+2,elbow,wx250s/upper_arm_link,wx250s/upper_forearm_link,0.0,-78.74502753159983,0.2549,0.0
+3,forearm_roll,wx250s/upper_forearm_link,wx250s/lower_forearm_link,0.0,-11.25460996975476,0.0,-90.0002104591497
+4,wrist_angle,wx250s/lower_forearm_link,wx250s/wrist_link,0.25,0.0,0.0,90.0002104591497
+5,wrist_rotate,wx250s/wrist_link,wx250s/gripper_link,-0.0,-0.0,0.0,-90.0002104591497
+6,ee_arm,wx250s/gripper_link,wx250s/ee_arm_link,0.108,0.0,0.0,0.0
+7,gripper,wx250s/ee_arm_link,wx250s/gripper_prop_link,0.0055,0.0,0.0,0.0
+8,gripper_bar,wx250s/ee_arm_link,wx250s/gripper_bar_link,0.0,0.0,0.0,0.0
+9,ee_bar,wx250s/gripper_bar_link,wx250s/fingers_link,0.023,0.0,0.0,0.0
+10,left_finger,wx250s/fingers_link,wx250s/left_finger_link,0.0,0.0,0.0,90.0002104591497
+11,right_finger,wx250s/fingers_link,wx250s/right_finger_link,0.0,0.0,0.0,90.0002104591497
+12,ee_gripper,wx250s/fingers_link,wx250s/ee_gripper_link,0.02758,0.0,0.0,0.0
+13,camera_joint,wx250s/fingers_link,camera_link,0.02,0.0,0.055,0.0
+
+
+DH Parameters: (markdown)
+|    | joint        | parent                    | child                     |        d |    theta |      r |    alpha |
+|---:|:-------------|:--------------------------|:--------------------------|---------:|---------:|-------:|---------:|
+|  0 | waist        | wx250s/base_link          | wx250s/shoulder_link      |  0.072   |   0      | 0      |   0      |
+|  1 | shoulder     | wx250s/shoulder_link      | wx250s/upper_arm_link     |  0.03865 |  -0      | 0      | -90.0002 |
+|  2 | elbow        | wx250s/upper_arm_link     | wx250s/upper_forearm_link |  0       | -78.745  | 0.2549 |   0      |
+|  3 | forearm_roll | wx250s/upper_forearm_link | wx250s/lower_forearm_link |  0       | -11.2546 | 0      | -90.0002 |
+|  4 | wrist_angle  | wx250s/lower_forearm_link | wx250s/wrist_link         |  0.25    |   0      | 0      |  90.0002 |
+|  5 | wrist_rotate | wx250s/wrist_link         | wx250s/gripper_link       | -0       |  -0      | 0      | -90.0002 |
+|  6 | ee_arm       | wx250s/gripper_link       | wx250s/ee_arm_link        |  0.108   |   0      | 0      |   0      |
+|  7 | gripper      | wx250s/ee_arm_link        | wx250s/gripper_prop_link  |  0.0055  |   0      | 0      |   0      |
+|  8 | gripper_bar  | wx250s/ee_arm_link        | wx250s/gripper_bar_link   |  0       |   0      | 0      |   0      |
+|  9 | ee_bar       | wx250s/gripper_bar_link   | wx250s/fingers_link       |  0.023   |   0      | 0      |   0      |
+| 10 | left_finger  | wx250s/fingers_link       | wx250s/left_finger_link   |  0       |   0      | 0      |  90.0002 |
+| 11 | right_finger | wx250s/fingers_link       | wx250s/right_finger_link  |  0       |   0      | 0      |  90.0002 |
+| 12 | ee_gripper   | wx250s/fingers_link       | wx250s/ee_gripper_link    |  0.02758 |   0      | 0      |   0      |
+| 13 | camera_joint | wx250s/fingers_link       | camera_link               |  0.02    |   0      | 0.055  |   0      |
+[ros2run]: Process exited with failure 1

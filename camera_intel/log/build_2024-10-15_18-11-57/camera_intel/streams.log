@@ -1,0 +1,26 @@
+[1.830s] Invoking command in '/home/amir/camera_intel/build/camera_intel': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amir/camera_intel/build/camera_intel/build --no-deps symlink_data
+[2.437s] running develop
+[2.439s] /home/amir/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.439s]   warnings.warn(
+[2.880s] running egg_info
+[2.880s] creating camera_intel.egg-info
+[2.910s] writing camera_intel.egg-info/PKG-INFO
+[2.910s] writing dependency_links to camera_intel.egg-info/dependency_links.txt
+[2.911s] writing entry points to camera_intel.egg-info/entry_points.txt
+[2.911s] writing requirements to camera_intel.egg-info/requires.txt
+[2.911s] writing top-level names to camera_intel.egg-info/top_level.txt
+[2.912s] writing manifest file 'camera_intel.egg-info/SOURCES.txt'
+[2.978s] reading manifest file 'camera_intel.egg-info/SOURCES.txt'
+[2.979s] writing manifest file 'camera_intel.egg-info/SOURCES.txt'
+[3.010s] running build_ext
+[3.011s] Creating /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera-intel.egg-link (link to .)
+[3.012s] Installing intel_pub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.012s] 
+[3.013s] Installed /home/amir/camera_intel/build/camera_intel
+[3.013s] running symlink_data
+[3.013s] creating /home/amir/camera_intel/install/camera_intel/share/ament_index
+[3.013s] creating /home/amir/camera_intel/install/camera_intel/share/ament_index/resource_index
+[3.013s] creating /home/amir/camera_intel/install/camera_intel/share/ament_index/resource_index/packages
+[3.014s] symbolically linking /home/amir/camera_intel/build/camera_intel/resource/camera_intel -> /home/amir/camera_intel/install/camera_intel/share/ament_index/resource_index/packages
+[3.014s] symbolically linking /home/amir/camera_intel/build/camera_intel/package.xml -> /home/amir/camera_intel/install/camera_intel/share/camera_intel
+[3.066s] Invoked command in '/home/amir/camera_intel/build/camera_intel' returned '0': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amir/camera_intel/build/camera_intel/build --no-deps symlink_data

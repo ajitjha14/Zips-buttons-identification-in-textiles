@@ -1,0 +1,199 @@
+[0.325s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.325s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72a5db7551e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72a5db754be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72a5db754be0>>, mixin_verb=('build',))
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.414s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amir/camera_intel'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dh/urdf_to_dh) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Dh/urdf_to_dh' with type 'ros.ament_python' and name 'urdf_to_dh'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_intel) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_intel' with type 'ros.ament_python' and name 'camera_intel'
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.510s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/amir/interbotix_ws/install/realsense2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.511s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/amir/interbotix_ws/install/realsense2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.511s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/amir/interbotix_ws/install/realsense2_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.514s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/amir/interbotix_ws/install/realsense2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.514s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/amir/interbotix_ws/install/realsense2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.514s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/amir/interbotix_ws/install/realsense2_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.517s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/amir/camera_intel/install
+[0.519s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 34 installed packages in /home/amir/interbotix_ws/install
+[0.521s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/amir/apriltag_ws/install
+[0.526s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'camera_intel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.652s] DEBUG:colcon.colcon_core.verb:Building package 'camera_intel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amir/camera_intel/build/camera_intel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amir/camera_intel/install/camera_intel', 'merge_install': False, 'path': '/home/amir/camera_intel/src/camera_intel', 'symlink_install': False, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'cmake_target' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'cmake_clean_cache' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'cmake_force_configure' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'ament_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'catkin_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'urdf_to_dh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_to_dh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amir/camera_intel/build/urdf_to_dh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amir/camera_intel/install/urdf_to_dh', 'merge_install': False, 'path': '/home/amir/camera_intel/src/Dh/urdf_to_dh', 'symlink_install': False, 'test_result_base': None}
+[0.654s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.657s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amir/camera_intel/src/camera_intel' with build type 'ament_python'
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_intel', 'ament_prefix_path')
+[0.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/camera_intel/share/camera_intel/hook/ament_prefix_path.ps1'
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amir/camera_intel/install/camera_intel/share/camera_intel/hook/ament_prefix_path.dsv'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/camera_intel/share/camera_intel/hook/ament_prefix_path.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amir/camera_intel/src/Dh/urdf_to_dh' with build type 'ament_python'
+[0.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_to_dh', 'ament_prefix_path')
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/hook/ament_prefix_path.ps1'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/hook/ament_prefix_path.dsv'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/hook/ament_prefix_path.sh'
+[0.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.197s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amir/camera_intel/src/camera_intel'
+[1.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.769s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amir/camera_intel/src/Dh/urdf_to_dh'
+[1.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amir/camera_intel/src/Dh/urdf_to_dh': PYTHONPATH=/home/amir/camera_intel/build/urdf_to_dh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/urdf_to_dh build --build-base /home/amir/camera_intel/build/urdf_to_dh/build install --record /home/amir/camera_intel/build/urdf_to_dh/install.log --install-scripts $base/lib/urdf_to_dh --single-version-externally-managed install_data
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amir/camera_intel/src/camera_intel': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_intel build --build-base /home/amir/camera_intel/build/camera_intel/build install --record /home/amir/camera_intel/build/camera_intel/install.log --single-version-externally-managed install_data
+[5.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amir/camera_intel/src/Dh/urdf_to_dh' returned '0': PYTHONPATH=/home/amir/camera_intel/build/urdf_to_dh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/urdf_to_dh build --build-base /home/amir/camera_intel/build/urdf_to_dh/build install --record /home/amir/camera_intel/build/urdf_to_dh/install.log --install-scripts $base/lib/urdf_to_dh --single-version-externally-managed install_data
+[5.474s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh' for CMake module files
+[5.475s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh' for CMake config files
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh/lib'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh/bin'
+[5.477s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh/lib/pkgconfig/urdf_to_dh.pc'
+[5.478s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages'
+[5.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_to_dh', 'pythonpath')
+[5.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/hook/pythonpath.ps1'
+[5.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/hook/pythonpath.dsv'
+[5.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/hook/pythonpath.sh'
+[5.482s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/urdf_to_dh/bin'
+[5.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_to_dh)
+[5.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/package.ps1'
+[5.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/package.dsv'
+[5.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/package.sh'
+[5.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/package.bash'
+[5.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/urdf_to_dh/share/urdf_to_dh/package.zsh'
+[5.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amir/camera_intel/install/urdf_to_dh/share/colcon-core/packages/urdf_to_dh)
+[5.593s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel' for CMake module files
+[5.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amir/camera_intel/src/camera_intel' returned '0': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_intel build --build-base /home/amir/camera_intel/build/camera_intel/build install --record /home/amir/camera_intel/build/camera_intel/install.log --single-version-externally-managed install_data
+[5.596s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel' for CMake config files
+[5.597s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel/lib'
+[5.597s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel/bin'
+[5.597s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel/lib/pkgconfig/camera_intel.pc'
+[5.597s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages'
+[5.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_intel', 'pythonpath')
+[5.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/camera_intel/share/camera_intel/hook/pythonpath.ps1'
+[5.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amir/camera_intel/install/camera_intel/share/camera_intel/hook/pythonpath.dsv'
+[5.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amir/camera_intel/install/camera_intel/share/camera_intel/hook/pythonpath.sh'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/amir/camera_intel/install/camera_intel/bin'
+[5.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_intel)
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/camera_intel/share/camera_intel/package.ps1'
+[5.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amir/camera_intel/install/camera_intel/share/camera_intel/package.dsv'
+[5.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/camera_intel/share/camera_intel/package.sh'
+[5.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/camera_intel/share/camera_intel/package.bash'
+[5.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/amir/camera_intel/install/camera_intel/share/camera_intel/package.zsh'
+[5.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amir/camera_intel/install/camera_intel/share/colcon-core/packages/camera_intel)
+[5.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.612s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.626s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.651s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amir/camera_intel/install/local_setup.ps1'
+[5.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amir/camera_intel/install/_local_setup_util_ps1.py'
+[5.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amir/camera_intel/install/setup.ps1'
+[5.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amir/camera_intel/install/local_setup.sh'
+[5.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amir/camera_intel/install/_local_setup_util_sh.py'
+[5.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amir/camera_intel/install/setup.sh'
+[5.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amir/camera_intel/install/local_setup.bash'
+[5.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amir/camera_intel/install/setup.bash'
+[5.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amir/camera_intel/install/local_setup.zsh'
+[5.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amir/camera_intel/install/setup.zsh'

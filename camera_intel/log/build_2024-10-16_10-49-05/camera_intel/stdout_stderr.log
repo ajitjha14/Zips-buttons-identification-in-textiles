@@ -1,0 +1,20 @@
+running develop
+/home/amir/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing camera_intel.egg-info/PKG-INFO
+writing dependency_links to camera_intel.egg-info/dependency_links.txt
+writing entry points to camera_intel.egg-info/entry_points.txt
+writing requirements to camera_intel.egg-info/requires.txt
+writing top-level names to camera_intel.egg-info/top_level.txt
+reading manifest file 'camera_intel.egg-info/SOURCES.txt'
+writing manifest file 'camera_intel.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera-intel.egg-link (link to .)
+Installing camera_publisher script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+Installing camera_subscriber script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+Installing intel_pub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+Installing intel_sub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+
+Installed /home/amir/camera_intel/build/camera_intel
+running symlink_data

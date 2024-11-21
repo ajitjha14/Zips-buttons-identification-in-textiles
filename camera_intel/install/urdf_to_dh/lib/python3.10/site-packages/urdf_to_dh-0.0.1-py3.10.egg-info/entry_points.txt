@@ -1,0 +1,2 @@
+[console_scripts]
+generate_dh = urdf_to_dh.generate_dh:main

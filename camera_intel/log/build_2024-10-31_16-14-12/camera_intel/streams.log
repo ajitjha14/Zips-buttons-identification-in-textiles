@@ -1,0 +1,30 @@
+[2.378s] Invoking command in '/home/amir/camera_intel/src/camera_intel': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_intel build --build-base /home/amir/camera_intel/build/camera_intel/build install --record /home/amir/camera_intel/build/camera_intel/install.log --single-version-externally-managed install_data
+[2.905s] running egg_info
+[2.938s] writing ../../build/camera_intel/camera_intel.egg-info/PKG-INFO
+[2.938s] writing dependency_links to ../../build/camera_intel/camera_intel.egg-info/dependency_links.txt
+[2.939s] writing entry points to ../../build/camera_intel/camera_intel.egg-info/entry_points.txt
+[2.939s] writing requirements to ../../build/camera_intel/camera_intel.egg-info/requires.txt
+[2.939s] writing top-level names to ../../build/camera_intel/camera_intel.egg-info/top_level.txt
+[3.014s] reading manifest file '../../build/camera_intel/camera_intel.egg-info/SOURCES.txt'
+[3.016s] writing manifest file '../../build/camera_intel/camera_intel.egg-info/SOURCES.txt'
+[3.016s] running build
+[3.016s] running build_py
+[3.017s] copying camera_intel/intel_pub.py -> /home/amir/camera_intel/build/camera_intel/build/lib/camera_intel
+[3.018s] running install
+[3.027s] running install_lib
+[3.064s] copying /home/amir/camera_intel/build/camera_intel/build/lib/camera_intel/intel_pub.py -> /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel
+[3.066s] byte-compiling /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel/intel_pub.py to intel_pub.cpython-310.pyc
+[3.067s] running install_data
+[3.067s] running install_egg_info
+[3.101s] removing '/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel-0.0.0-py3.10.egg-info' (and everything under it)
+[3.102s] Copying ../../build/camera_intel/camera_intel.egg-info to /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel-0.0.0-py3.10.egg-info
+[3.104s] running install_scripts
+[3.453s] Installing Depth_wcoordinate script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.453s] Installing camera_publisher script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.453s] Installing camera_subscriber script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.454s] Installing intel_pub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.454s] Installing intel_sub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.455s] Installing real_time_test_publisher script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.455s] Installing real_time_test_subscriber script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[3.456s] writing list of installed files to '/home/amir/camera_intel/build/camera_intel/install.log'
+[3.506s] Invoked command in '/home/amir/camera_intel/src/camera_intel' returned '0': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_intel build --build-base /home/amir/camera_intel/build/camera_intel/build install --record /home/amir/camera_intel/build/camera_intel/install.log --single-version-externally-managed install_data

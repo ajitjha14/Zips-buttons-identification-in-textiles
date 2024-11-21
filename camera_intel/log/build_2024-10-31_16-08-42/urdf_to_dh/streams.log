@@ -1,0 +1,24 @@
+[2.200s] Invoking command in '/home/amir/camera_intel/src/Dh/urdf_to_dh': PYTHONPATH=/home/amir/camera_intel/build/urdf_to_dh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/urdf_to_dh build --build-base /home/amir/camera_intel/build/urdf_to_dh/build install --record /home/amir/camera_intel/build/urdf_to_dh/install.log --install-scripts $base/lib/urdf_to_dh --single-version-externally-managed install_data
+[2.467s] /home/amir/.local/lib/python3.10/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.467s]   warnings.warn(
+[2.736s] running egg_info
+[2.773s] writing ../../../build/urdf_to_dh/urdf_to_dh.egg-info/PKG-INFO
+[2.774s] writing dependency_links to ../../../build/urdf_to_dh/urdf_to_dh.egg-info/dependency_links.txt
+[2.774s] writing entry points to ../../../build/urdf_to_dh/urdf_to_dh.egg-info/entry_points.txt
+[2.774s] writing requirements to ../../../build/urdf_to_dh/urdf_to_dh.egg-info/requires.txt
+[2.775s] writing top-level names to ../../../build/urdf_to_dh/urdf_to_dh.egg-info/top_level.txt
+[2.855s] reading manifest file '../../../build/urdf_to_dh/urdf_to_dh.egg-info/SOURCES.txt'
+[2.856s] adding license file 'LICENSE'
+[2.857s] writing manifest file '../../../build/urdf_to_dh/urdf_to_dh.egg-info/SOURCES.txt'
+[2.857s] running build
+[2.857s] running build_py
+[2.859s] running install
+[2.871s] running install_lib
+[2.917s] running install_data
+[2.918s] running install_egg_info
+[2.953s] removing '/home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages/urdf_to_dh-0.0.1-py3.10.egg-info' (and everything under it)
+[2.954s] Copying ../../../build/urdf_to_dh/urdf_to_dh.egg-info to /home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages/urdf_to_dh-0.0.1-py3.10.egg-info
+[2.955s] running install_scripts
+[3.343s] Installing generate_dh script to /home/amir/camera_intel/install/urdf_to_dh/lib/urdf_to_dh
+[3.344s] writing list of installed files to '/home/amir/camera_intel/build/urdf_to_dh/install.log'
+[3.400s] Invoked command in '/home/amir/camera_intel/src/Dh/urdf_to_dh' returned '0': PYTHONPATH=/home/amir/camera_intel/build/urdf_to_dh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/urdf_to_dh/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/urdf_to_dh build --build-base /home/amir/camera_intel/build/urdf_to_dh/build install --record /home/amir/camera_intel/build/urdf_to_dh/install.log --install-scripts $base/lib/urdf_to_dh --single-version-externally-managed install_data

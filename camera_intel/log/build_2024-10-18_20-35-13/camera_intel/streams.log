@@ -1,0 +1,31 @@
+[1.473s] Invoking command in '/home/amir/camera_intel/src/camera_intel': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_intel build --build-base /home/amir/camera_intel/build/camera_intel/build install --record /home/amir/camera_intel/build/camera_intel/install.log --single-version-externally-managed install_data
+[1.902s] running egg_info
+[1.933s] writing ../../build/camera_intel/camera_intel.egg-info/PKG-INFO
+[1.933s] writing dependency_links to ../../build/camera_intel/camera_intel.egg-info/dependency_links.txt
+[1.933s] writing entry points to ../../build/camera_intel/camera_intel.egg-info/entry_points.txt
+[1.934s] writing requirements to ../../build/camera_intel/camera_intel.egg-info/requires.txt
+[1.934s] writing top-level names to ../../build/camera_intel/camera_intel.egg-info/top_level.txt
+[1.995s] reading manifest file '../../build/camera_intel/camera_intel.egg-info/SOURCES.txt'
+[1.996s] writing manifest file '../../build/camera_intel/camera_intel.egg-info/SOURCES.txt'
+[1.996s] running build
+[1.996s] running build_py
+[1.997s] copying camera_intel/Depth_wcoordinate.py -> /home/amir/camera_intel/build/camera_intel/build/lib/camera_intel
+[1.998s] running install
+[2.007s] running install_lib
+[2.038s] copying /home/amir/camera_intel/build/camera_intel/build/lib/camera_intel/Depth_wcoordinate.py -> /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel
+[2.040s] byte-compiling /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel/Depth_wcoordinate.py to Depth_wcoordinate.cpython-310.pyc
+[2.040s] Sorry: IndentationError: expected an indented block after function definition on line 35 (Depth_wcoordinate.py, line 36)
+[2.041s] running install_data
+[2.041s] running install_egg_info
+[2.072s] removing '/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel-0.0.0-py3.10.egg-info' (and everything under it)
+[2.073s] Copying ../../build/camera_intel/camera_intel.egg-info to /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera_intel-0.0.0-py3.10.egg-info
+[2.074s] running install_scripts
+[2.372s] Installing Depth_wcoordinate script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.373s] Installing camera_publisher script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.373s] Installing camera_subscriber script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.373s] Installing intel_pub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.374s] Installing intel_sub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.374s] Installing real_time_test_publisher script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.374s] Installing real_time_test_subscriber script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.375s] writing list of installed files to '/home/amir/camera_intel/build/camera_intel/install.log'
+[2.414s] Invoked command in '/home/amir/camera_intel/src/camera_intel' returned '0': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_intel build --build-base /home/amir/camera_intel/build/camera_intel/build install --record /home/amir/camera_intel/build/camera_intel/install.log --single-version-externally-managed install_data

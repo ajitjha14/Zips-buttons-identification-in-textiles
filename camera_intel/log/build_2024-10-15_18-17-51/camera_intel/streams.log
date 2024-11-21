@@ -1,0 +1,20 @@
+[1.611s] Invoking command in '/home/amir/camera_intel/build/camera_intel': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amir/camera_intel/build/camera_intel/build --no-deps symlink_data
+[2.225s] running develop
+[2.225s] /home/amir/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.225s]   warnings.warn(
+[2.656s] running egg_info
+[2.684s] writing camera_intel.egg-info/PKG-INFO
+[2.684s] writing dependency_links to camera_intel.egg-info/dependency_links.txt
+[2.685s] writing entry points to camera_intel.egg-info/entry_points.txt
+[2.685s] writing requirements to camera_intel.egg-info/requires.txt
+[2.685s] writing top-level names to camera_intel.egg-info/top_level.txt
+[2.741s] reading manifest file 'camera_intel.egg-info/SOURCES.txt'
+[2.742s] writing manifest file 'camera_intel.egg-info/SOURCES.txt'
+[2.772s] running build_ext
+[2.773s] Creating /home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages/camera-intel.egg-link (link to .)
+[2.774s] Installing intel_pub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.774s] Installing intel_sub script to /home/amir/camera_intel/install/camera_intel/lib/camera_intel
+[2.775s] 
+[2.775s] Installed /home/amir/camera_intel/build/camera_intel
+[2.775s] running symlink_data
+[2.822s] Invoked command in '/home/amir/camera_intel/build/camera_intel' returned '0': PYTHONPATH=/home/amir/camera_intel/build/camera_intel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amir/camera_intel/install/camera_intel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/amir/camera_intel/build/camera_intel/build --no-deps symlink_data
