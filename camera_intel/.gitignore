@@ -1,0 +1,12 @@
+*.rules
+.bash*
+.cache/
+.config/
+.gitconfig
+.local/
+log/
+*.gv
+*.pdf
+snap/
+python_venv/
+xsarm_amd64_install.sh
