@@ -1,38 +1,47 @@
-# Ignore user environment files
-../.99-realsense-libusb.rules
-../.bash*
-../.cache/
-../.config/
-../.dotnet/
-../.gitconfig
-../.ipython/
-../.local/
-../.pam_environment
-../.pki/
-../.ros/
-../.rviz2/
-../.ssh/
-../.thunderbird/
-../.vscode/
-
-# Ignore user workspace directories
-../Desktop/
-../Documents/
-../Downloads/
-../Lab_Python_basics/
-../Pictures/
-../Robot_ws/
-../Videos/
-
-# Ignore specific files
-../frames_*.gv
-../frames_*.pdf
-
-# Ignore other unnecessary directories
-../log/
-../snap/
-../python_venv/
-../ros2_humble/
-../interbotix_ws/
-../blablabla/
+	../.99-realsense-libusb.rules
+	../.bash_history
+	../.bash_logout
+	../.bashrc
+	../.cache/
+	../.config/
+	../.dotnet/
+	../.gitconfig
+	../.gnupg/
+	../.ipython/
+	../.lesshst
+	../.local/
+	../.pam_environment
+	../.pki/
+	../.profile
+	../.realsense-config.json
+	../.ros/
+	../.rviz2/
+	../.ssh/
+	../.sudo_as_admin_successful
+	../.thunderbird/
+	../.vscode/
+	../Desktop/
+	../Documents/
+	../Downloads/
+	../Lab_Python_basics/
+	../Pictures/
+	../Robot_ws/
+	../Videos/
+	../apriltag_ws/
+	../blablabla/
+	../frames_2024-10-18_20.20.34.gv
+	../frames_2024-10-18_20.20.34.pdf
+	../frames_2024-10-18_20.25.36.gv
+	../frames_2024-10-18_20.25.36.pdf
+	../frames_2024-10-31_17.20.25.gv
+	../frames_2024-10-31_17.20.25.pdf
+	../interbotix_ws/
+	../log/build_2024-11-14_12-16-16/
+	../log/build_2024-11-14_12-17-34/
+	../log/build_2024-11-14_12-18-19/
+	../python_venv/
+	../robotnode/
+	../ros2_humble/
+	../snap/
+	../xsarm_amd64_install.sh
 
