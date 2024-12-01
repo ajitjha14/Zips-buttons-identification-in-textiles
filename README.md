@@ -13,5 +13,5 @@ Steps to run tbe project:
    python3 Button_Boundingbox_final.py  
      
 For more information about the robot and nessicary package check the Trossen Robotics documentation:
-......
+
 https://docs.trossenrobotics.com/interbotix_xsarms_docs/  
